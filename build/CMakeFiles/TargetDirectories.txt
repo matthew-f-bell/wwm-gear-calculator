@@ -1,0 +1,9 @@
+/home/matthew/Project-Repos/wwm-gear-calculator/build/CMakeFiles/wwm-gear-calculator.dir
+/home/matthew/Project-Repos/wwm-gear-calculator/build/CMakeFiles/edit_cache.dir
+/home/matthew/Project-Repos/wwm-gear-calculator/build/CMakeFiles/rebuild_cache.dir
+/home/matthew/Project-Repos/wwm-gear-calculator/build/CMakeFiles/list_install_components.dir
+/home/matthew/Project-Repos/wwm-gear-calculator/build/CMakeFiles/install.dir
+/home/matthew/Project-Repos/wwm-gear-calculator/build/CMakeFiles/install/local.dir
+/home/matthew/Project-Repos/wwm-gear-calculator/build/CMakeFiles/install/strip.dir
+/home/matthew/Project-Repos/wwm-gear-calculator/build/CMakeFiles/wwm-gear-calculator_autogen_timestamp_deps.dir
+/home/matthew/Project-Repos/wwm-gear-calculator/build/CMakeFiles/wwm-gear-calculator_autogen.dir

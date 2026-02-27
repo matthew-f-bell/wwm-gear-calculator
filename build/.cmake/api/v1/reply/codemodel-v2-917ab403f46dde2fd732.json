@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-e7d60c26fc9285bdd586.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "wwm-gear-calculator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "wwm-gear-calculator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wwm-gear-calculator-Debug-56257755aa2b23f62191.json",
+					"name" : "wwm-gear-calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wwm-gear-calculator_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wwm-gear-calculator_autogen-Debug-5a57986a591626b3571d.json",
+					"name" : "wwm-gear-calculator_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wwm-gear-calculator_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wwm-gear-calculator_autogen_timestamp_deps-Debug-391781a2d439eae70e51.json",
+					"name" : "wwm-gear-calculator_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/matthew/Project-Repos/wwm-gear-calculator/build",
+		"source" : "/home/matthew/Project-Repos/wwm-gear-calculator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
