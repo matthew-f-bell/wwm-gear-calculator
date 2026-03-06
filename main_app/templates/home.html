@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 {% load static %}
 
 <!-- Tab Title -->
@@ -6,6 +6,13 @@
     Home | WWM Gear Calculator
 {% endblock %}
 
-{% block content %}
+<!-- Body Content-->
+{% block body %}
     <h1>Welcome to the WWM Gear Calculator!</h1>
+
+    <div>
+        {% for stat in stats %}
+            Name:{{ stat.stat_name }}: {{ stat.max_stat_value }}
+        {% endfor %}
+    </div>
 {% endblock %}
