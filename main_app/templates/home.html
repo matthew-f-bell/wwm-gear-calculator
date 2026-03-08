@@ -15,4 +15,9 @@
             Name:{{ stat.stat_name }}: {{ stat.max_stat_value }}
         {% endfor %}
     </div>
+    <div>
+        {% for weapon in weapons %}
+            Name: {{ weapon.weapon_name }} Type: {{ weapon.weapon_type }}
+        {% endfor %}
+    </div>    
 {% endblock %}
