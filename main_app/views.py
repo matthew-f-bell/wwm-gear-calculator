@@ -11,5 +11,7 @@ class Home(TemplateView):
         context = super().get_context_data(**kwargs)
         context['stats'] = Stats.objects.all()
         context['weapons'] = Weapons.objects.all()
+        context['tank'] = Tank.objects.all()
+        context['dps'] = DPS.objects.all()
 
         return context
