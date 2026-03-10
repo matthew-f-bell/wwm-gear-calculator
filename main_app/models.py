@@ -49,3 +49,13 @@ class Healer(models.Model):
 
     def __str__(self):
         return self.healer_title
+
+
+class Gear(models.Model):
+    stats = models.ForeignKey(Stats, on_delete=models.CASCADE, related_name='gears')
+    result = models.FloatField()
+
+    def __str__(self):
+        return str(self.result)
+
+
