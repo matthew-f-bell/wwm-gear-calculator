@@ -14,5 +14,6 @@ class Home(TemplateView):
         context['weapons'] = Weapons.objects.all()
         context['tank'] = Tank.objects.all()
         context['dps'] = DPS.objects.all()
+        context['gears'] = Gear.objects.all()
 
         return context
