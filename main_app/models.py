@@ -41,3 +41,11 @@ class DPS(models.Model):
 
     def __str__(self):
         return self.dps_title
+
+class Healer(models.Model):
+    healer_title = models.CharField(max_length=100)
+    healer_stats = models.ManyToManyField(Stats, related_name='healer_stats')
+    healer_weapon = models.ManyToManyField(Weapons, related_name='healer_weapon')
+
+    def __str__(self):
+        return self.healer_title

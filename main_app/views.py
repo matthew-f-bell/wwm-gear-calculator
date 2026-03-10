@@ -10,6 +10,7 @@ class Home(TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['stats'] = Stats.objects.all()
+        context['healers'] = Healer.objects.all()
         context['weapons'] = Weapons.objects.all()
         context['tank'] = Tank.objects.all()
         context['dps'] = DPS.objects.all()

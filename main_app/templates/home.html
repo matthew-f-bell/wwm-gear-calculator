@@ -11,8 +11,19 @@
     <h1>Welcome to the WWM Gear Calculator!</h1>
 
     <div>
+        These are the stats:
         {% for stat in stats %}
-            Name:{{ stat.stat_name }}: {{ stat.max_stat_value }}
+            <div>
+                Name: {{ stat.stat_name }}: {{ stat.max_stat_value }}
+            </div>
+        {% endfor %}
+    </div>
+    <div>
+        These are the healers:
+        {% for healer in healers %}
+            <div>
+                Title: {{ healer.healer_title }}
+            </div>
         {% endfor %}
     </div>
     <div>
