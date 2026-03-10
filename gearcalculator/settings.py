@@ -87,6 +87,8 @@ DATABASES = {
     'default': {
         'ENGINE': os.getenv("DJANGO_DATABASE_URL"),
         'NAME': os.getenv("DJANGO_DATABASE_NAME"),
+        'PASSWORD': os.getenv("DJANGO_DATABASE_PASSWORD"),
+        'USER': os.getenv("DJANGO_DATABASE_USER"),
     }
 }
 
