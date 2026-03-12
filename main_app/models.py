@@ -51,11 +51,23 @@ class Healer(models.Model):
         return self.healer_title
 
 
+class Attunements(models.Model):
+    name = models.CharField(max_length=255)
+    description = models.CharField(max_length=500)
+    summary = models.CharField(max_length=255)
+
+    def __str__(self):
+        return self.name
+
+
 class Gear(models.Model):
     stats = models.ForeignKey(Stats, on_delete=models.CASCADE, related_name='gears')
     result = models.FloatField()
+    attunement = models.ForeignKey(Attunements, on_delete=models.SET_NULL, null=True, blank=True, related_name='gears')
 
     def __str__(self):
-        return str(self.result)
+        if self.attunement:
+            return f"Gear for {self.stats.stat_name} ({self.attunement.name}): {self.result}"
+        return f"Gear for {self.stats.stat_name}: {self.result}"
 
 
